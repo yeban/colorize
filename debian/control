@@ -1,0 +1,18 @@
+Source: ruby-colorize
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders:  <>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.6.1~)
+Standards-Version: 3.9.4
+#Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-colorize.git
+#Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-colorize.git;a=summary
+Homepage: http://github.com/fazibear/colorize
+XS-Ruby-Versions: all
+
+Package: ruby-colorize
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: Add color methods to String class
+ Ruby String class extension. Adds methods to set text color, background color and, text effects on ruby console and command line output, using ANSI escape sequences.
