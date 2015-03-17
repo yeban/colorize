@@ -14,5 +14,6 @@ Package: ruby-colorize
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
-Description: Add color methods to String class
- Ruby String class extension. Adds methods to set text color, background color and, text effects on ruby console and command line output, using ANSI escape sequences.
+Description: Add color methods to String class Ruby String class extension.
+ Adds methods to set text color, background color and, text effects on ruby
+ console and command line output, using ANSI escape sequences.
