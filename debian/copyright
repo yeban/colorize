@@ -1,18 +1,17 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: colorize
-Source: FIXME <http://example.com/>
+Source: https://github.com/fazibear/colorize
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: GPL-2+ (FIXME)
+Copyright: 2007-2015 Michal Kalbarczyk
+License: GPL-2+
 
 Files: debian/*
-Copyright: 2015  <>
-License: GPL-2+ (FIXME)
+Copyright: 2015  Anurag Priyam <anurag08priyam@gmail.com>
+License: GPL-2+
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
-License: GPL-2+ (FIXME)
+License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
  License as published by the Free Software Foundation; either
